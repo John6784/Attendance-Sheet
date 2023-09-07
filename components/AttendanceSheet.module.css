@@ -1,0 +1,102 @@
+/* components/AttendanceSheet/styles.module.css */
+
+/* Container styles */
+.container {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* Text styles */
+.text2xl {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 3rem;
+}
+
+.fontSemibold {
+  font-weight: 600;
+}
+
+/* Overflow styles */
+.overflowXAuto {
+  overflow-x: auto;
+}
+
+/* Full width styles */
+.full {
+  width: 100%;
+}
+
+/* Header row styles */
+.headerRow {
+  background-color: #f3f4f6;
+}
+
+/* Cell styles */
+.cell {
+  padding: 0.1rem;
+  text-align: center;
+}
+
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Apply transitions */
+  }
+  
+ /* styles.module.css */
+
+/* Present button styles */
+.presentButton {
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Apply transitions */
+  
+    /* Default button appearance */
+    background-color: #4caf50; /* Green background color */
+    color: #fff; /* White text color */
+  }
+  
+  /* Absent button styles */
+  .absentButton {
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Apply transitions */
+  
+    /* Default button appearance */
+    background-color: #f44336; /* Red background color */
+    color: #fff; /* White text color */
+  }
+  
+  /* Present button styles for the :hover and :active states */
+  .presentButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .presentButton:active {
+    transform: translateY(2px); /* Simulate a slight push-down effect on click */
+    box-shadow: 0 2px 4px rgba(76, 175, 80, 0.2); /* Add a subtle shadow on click */
+  }
+  
+  /* Absent button styles for the :hover and :active states */
+  .absentButton:hover {
+    background-color: #e53935; /* Darker red on hover */
+  }
+  
+  .absentButton:active {
+    transform: translateY(2px); /* Simulate a slight push-down effect on click */
+    box-shadow: 0 2px 4px rgba(244, 67, 54, 0.2); /* Add a subtle shadow on click */
+  }
+  
